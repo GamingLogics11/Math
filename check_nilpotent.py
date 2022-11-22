@@ -1,3 +1,6 @@
+import numpy as np
+from numpy import linalg as LA
+
 def create_matrix():
     dimension = int(input("Please enter matrix dimension: "))
     if dimension == 1:
